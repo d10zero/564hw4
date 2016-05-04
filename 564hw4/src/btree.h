@@ -473,6 +473,10 @@ class BTreeIndex {
 	**/
 	const void endScan();
 	
+	const void insertInteger(RIDKeyPair<int> entry);
+	const void insertDouble(RIDKeyPair<double> entry);
+	const void insertString(RIDKeyPair<char> entry);
+
 };
 
 }
